@@ -1,0 +1,28 @@
+.container {
+  height: 100vh;
+  background-color: #20232a;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2vw;
+}
+
+@media (max-width: 830px) {
+  .container {
+    flex-direction: column;
+  }
+}
+
+.message {
+  padding: 20px;
+  text-align: center;
+}
+
+.message h1 {
+  color: #fff;
+}
+
+.message a {
+  color: #a2bdbd;
+  text-decoration: underline;
+}
